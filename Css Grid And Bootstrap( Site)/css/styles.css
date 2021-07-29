@@ -1,0 +1,17 @@
+.text-danger{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(23, 135, 187) !important;
+    text-shadow: 1px 1px black;
+}
+#s1_header{background:#1e1109 ;}
+#s2_trio{background: #fefaf7;}
+#s3_painting_of_the_week{background:#26221f ;}
+#s4_about{background: #f0e9d7;}
+#s5_prints{background:#fefaf7 ;}
+#s6-paintings{background:#414046 ;}
+#s7_drawings{background:#f0e9d7 ;}
+#s8-contact{background:#fefaf7 ;}
+#s9_footer{background:#414046 ;}
+#s10_copyright{background:#000 ;}
+
+#s1_header{background:url("img/");}
