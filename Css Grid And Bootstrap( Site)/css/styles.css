@@ -14,4 +14,12 @@
 #s9_footer{background:#414046 ;}
 #s10_copyright{background:#000 ;}
 
-#s1_header{background:url("img/");}
+
+
+#s1_header{
+    background: url("img/pexels-header-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
