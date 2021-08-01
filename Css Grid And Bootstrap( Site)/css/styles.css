@@ -1,6 +1,12 @@
 .text-danger{
-    font-family: 'Abril Fatface', cursive;
-    color: rgb(23, 135, 187) !important;
+    /* font-family: 'Abril Fatface', cursive; */
+    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'Ultra', serif;
+
+    /* font-family: 'Style Script', cursive; */
+    /* font-family: 'WindSong', cursive; */
+
+    color: rgb(190, 217, 228) !important;
     text-shadow: 1px 1px black;
 }
 #s1_header{background:#1e1109 ;}
@@ -17,9 +23,19 @@
 
 
 #s1_header{
-    background: url("img/pexels-header-bg.jpg");
-    background-position: center;
+    background: url("../img/pexels-header-bg.jpg");
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
+.painting-1{background: url("../img/paintings/pexels-audrius-strikaitis-8274003.jpg");background-position: center;background-size: cover; }
+.painting-2{background: url("../img/paintings/pexels-belle-co-3121303.jpg");background-position: center;background-size: cover; } 
+.painting-3{background: url("../img/paintings/pexels-denniz-futalan-3378437.jpg");background-position: center;background-size: cover; }
+.painting-4{background: url("../img/paintings/pexels-erik-mclean-4839278.jpg");background-position: center;background-size: cover; }
+.painting-5{background: url("../img/paintings/pexels-gijs-coolen-2948295.jpg");background-position: center;background-size: cover; }
+.painting-6{background: url("../img/paintings/pexels-gijs-coolen-2948297.jpg");background-position: center;background-size: cover; }
+.painting-7{background: url("../img/paintings/pexels-giorgio-de-angelis-1191109.jpg");background-position: center;background-size: cover; }
+.painting-8{background: url("../img/paintings/pexels-pixabay-104842.jpg");background-position: center;background-size: cover; }
+.painting-9{background: url("../img/paintings/pexels-pragyan-bezbaruah-1715184.jpg");background-position: center;background-size: cover; }
+.painting-10{background: url("../img/paintings/pexels-sourav-mishra-3068661.jpg");background-position: center;background-size: cover; }

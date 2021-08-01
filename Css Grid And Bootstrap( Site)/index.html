@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Style+Script&family=WindSong&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Hlabba Cars</title>
 </head>
@@ -20,6 +23,30 @@
                 <h5 class="text-white">Kit M ,Cars &amp; Design</h5>
             </aside>
     </section>
+    <style>
+        #s1_header{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4,1fr);
+        }
+        #s1_header aside{
+            text-align: center;
+            grid-column: 2/4;
+            grid-row: 2/3;
+
+        }
+        @media (max-width:992px) {
+            #s1_header { height: 50vh;}
+            #s1_header aside{grid-row: 2/5;}
+            #s1_header .display-4{
+                font-size: 28px;
+            }
+            #s1_header h5{
+                font-size: 12px;
+            }
+        }
+
+    </style>
 
     <!-- s2_trio -->
     <section id="s2_trio">
