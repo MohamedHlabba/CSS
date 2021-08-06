@@ -6,8 +6,8 @@
     /* font-family: 'Style Script', cursive; */
     /* font-family: 'WindSong', cursive; */
 
-    color: rgb(190, 217, 228) !important;
-    text-shadow: 1px 1px black;
+    color: #3287AF !important;
+        text-shadow: 1px 1px black;
 }
 #s1_header{background:#1e1109 ;}
 #s2_trio{background: #fefaf7;}
@@ -23,7 +23,7 @@
 
 
 #s1_header{
-    background: url("../img/pexels-header-bg.jpg");
+    background: url("../img/pexels-mike-7762717.jpg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
