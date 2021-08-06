@@ -1,12 +1,10 @@
 .text-danger{
     /* font-family: 'Abril Fatface', cursive; */
     /* font-family: 'Press Start 2P', cursive; */
-    font-family: 'Ultra', serif;
-
-    /* font-family: 'Style Script', cursive; */
+       /* font-family: 'Ultra', serif; */
+    font-family: 'Style Script', cursive;
     /* font-family: 'WindSong', cursive; */
-
-    color: #3287AF !important;
+        color: #3287AF !important;
         text-shadow: 1px 1px black;
 }
 #s1_header{background:#1e1109 ;}
@@ -39,3 +37,35 @@
 .painting-8{background: url("../img/paintings/pexels-pixabay-104842.jpg");background-position: center;background-size: cover; }
 .painting-9{background: url("../img/paintings/pexels-pragyan-bezbaruah-1715184.jpg");background-position: center;background-size: cover; }
 .painting-10{background: url("../img/paintings/pexels-sourav-mishra-3068661.jpg");background-position: center;background-size: cover; }
+
+.myGrid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(1,1fr);
+}
+@media(max-width:768px){
+    .myGrid{
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+    }
+    .mySubGrid{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 15px;
+    }
+}
+@media(max-width:576px){
+    .myGrid{
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        grid-template-rows: repeat(2,auto);
+    }
+    .mySubGrid{
+        grid-template-columns:repeat(1,1fr) ;
+        grid-template-rows: repeat(3,auto);
+        grid-gap: 15px;
+    }
+}
