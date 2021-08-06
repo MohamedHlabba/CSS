@@ -1,0 +1,29 @@
+@import "../5\ css\ Flex\ Demonstration/default.css";
+#primary-section,
+#secondary-section{
+    flex: 1;
+}
+#primary-section{
+    order: 2;
+}
+#secondary-section{
+    order: 1;
+    flex-direction: column;
+
+}
+.box{
+    padding: 20px;
+    flex: 1 ;
+}
+#primary-section .box:nth-child(1){
+    background-color: #8ab3c2;
+    color: #f5fcff;
+}
+#secondary-section .box:nth-child(1){
+    background-color: cadetblue;
+
+}
+#secondary-section .box:nth-child(2){
+    background-color:cyan ;
+    
+}

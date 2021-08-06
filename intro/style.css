@@ -1,0 +1,13 @@
+h1{
+    color: blue; 
+ }
+ p{
+     color: #000ff0;
+ }
+ small{
+     color:rgba(0, 0, 255);
+ }
+ .post p,.sm{
+         color: chocolate;
+ }
+ 
