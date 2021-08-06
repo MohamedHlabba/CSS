@@ -1,0 +1,18 @@
+@import "../demo-1/default.css";
+
+.container-center{
+    height: 100vh; 
+    /* viewport height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* body{
+    background-color: aquamarine;
+} */

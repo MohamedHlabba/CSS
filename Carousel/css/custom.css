@@ -1,0 +1,24 @@
+:root {
+    --my-color:#3eee34;
+    --my-color-hover:#376cb1;
+
+}
+.btn-my{
+    background-color: var(--my-color);
+    color: #fff;
+    border-color: var(--my-color);
+}
+.btn-my:hover{
+    background-color: var(--my-color-hover);
+    color: #fff;
+}
+.img-carousel img{
+    max-height: 550px;
+   /* height: calc(100vh -56px); */
+   
+}
+@media (max-width: 688px) {
+    .carousel-item>img {
+        max-height: 200px;
+    }
+}
